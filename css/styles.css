@@ -1,0 +1,374 @@
+body {
+	width: 1600px;
+}
+.header {
+	height: 78px;
+	border-bottom: 1px solid #ececec;
+	display: flex;
+}
+.logo-header {
+	text-align: center;
+	padding: 25px 93px 25px 215px;
+}
+.logo1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	color: #2196f3;
+}
+.logo2header {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	color: black;
+}
+.header-nav {
+	width: 1147px;
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav-subpages {
+	width: 625px;
+}
+.header-nav-contact {
+	width: 522px;
+}
+.ul-header {
+	padding-top: 32px;
+	padding-left: 0px;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+.li-header {
+	font-weight: 500;
+	margin: 0px;
+}
+.li-header:last-child {
+	padding-right: 371px;
+}
+.ul-header-nav-contact {
+	width: 600px;
+	padding-top: 32px;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+.li-header-nav-contact {
+	font-weight: 500;
+	margin: 0px;
+}
+.li-header-nav-contact:last-child {
+	padding-right: 227px;
+}
+.description {
+	padding: 94px 0px;
+}
+.ul-description {
+	width: 1385px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+.li-description {
+	height: 101px;
+}
+.li-description:first-child {
+	padding-left: 215px;
+}
+.loremipsum {
+	font-size: 14px;
+}
+.loremipsum-text {
+	color: #757575;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+.our-work {
+	padding-bottom: 94px;
+}
+.ul-our-work {
+	width: 1385px;
+	height: 294px;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+.ul-our-work:first-child {
+	padding-left: 215px;
+}
+.photos {
+	padding-top: 16px;
+}
+.ul-our-team {
+	width: 1385px;
+	margin: 0px;
+	padding: 16px 0px 0px 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+.li-our-team {
+	font-weight: 500;
+	margin: 0px;
+}
+.li-our-team:first-child {
+	padding-left: 215px;
+}
+
+.btn-portfolio {
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+	background-color: #f5f4fa;
+	color: #212121;
+	height: 38px;
+	width: auto;
+	padding: 6px 22px;
+}
+.btn-index {
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+	background-color: #f5f4fa;
+	color: #212121;
+	width: 200px;
+	height: 50px;
+	margin: 0;
+	padding: 10px 41px 10px 42px;
+	margin-top: 30px;
+}
+[class^='btn']:hover {
+	background-color: #2196f3;
+	color: #ffffff;
+	cursor: pointer;
+}
+[class^='btn']:focus {
+	background-color: #2196f3;
+	cursor: pointer;
+}
+#contact-mail-index {
+	padding: 32px 52px 32px 348px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
+}
+#contact-phone-index {
+	padding: 32px 23px 32px 0px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
+}
+.main-index {
+	height: 600px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #2f303a;
+	color: white;
+	text-align: center;
+}
+.h1index {
+	width: 696px;
+	padding-top: 200px;
+	margin: 0px 0px 0px 452px;
+	font-size: 44px;
+	line-height: 60px;
+	letter-spacing: 5px;
+}
+.h2index {
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 34px;
+	margin: 0px;
+}
+.h3index {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+	letter-spacing: 0.03em;
+}
+.our-team {
+	background-color: #f5f4fa;
+	padding: 94px 0px;
+}
+.figure-our-team {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	margin: 0px;
+}
+.our-team-photos {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	padding: 30px;
+	text-align: center;
+}
+.name-of-memeber {
+	color: #212121;
+}
+.function-of-member {
+	color: #757575;
+}
+.main-portfolio {
+	height: 1548px;
+}
+.subpages-portfolio-block {
+	font-size: 14px;
+	padding: 94px 0px 28px 490px;
+	float: left;
+}
+.nav-portfolio {
+	display: flex;
+	justify-content: space-between;
+	padding: 94px 0px 35px 510px;
+}
+.ul-nav-portfolio {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	font-weight: 500;
+	padding: 0px;
+}
+.li-nav-portfolio {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	font-weight: 500;
+	margin: 0px;
+}
+.portfolio {
+	font-family: 'Raleway', sans-serif;
+	padding: 0px;
+}
+.ul-portfolio {
+	width: 1385px;
+	padding: 15px 0px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	font-weight: 500;
+	margin: 0px;
+}
+.li-portfolio {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	font-weight: 500;
+}
+.li-portfolio:first-child {
+	padding-left: 215px;
+}
+.subpages-portfolio {
+	height: 38px;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	margin: 4px;
+	float: left;
+}
+.portfolio-photos {
+	float: left;
+	width: 370px;
+	height: 404px;
+	padding: 15px;
+}
+.figure-portfolio {
+	height: 404px;
+	margin: 0px;
+	border: 1px solid #eeeeee;
+}
+.figcapition-portfolio {
+	height: 110px;
+	padding-left: 24px;
+}
+.project-name {
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1.08px;
+	line-height: 3;
+	text-align: left;
+}
+.project-type {
+	color: #757575;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: left;
+}
+.logo2footer {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: white;
+}
+.link-index,
+.link-portfolio {
+	text-decoration: none;
+	color: black;
+}
+[class^='link']:hover {
+	text-decoration: none;
+	color: #2196f3;
+}
+[class^='link']:focus {
+	text-decoration: none;
+	color: #2196f3;
+}
+[class^='link']:active {
+	text-decoration: none;
+	color: #2196f3;
+}
+.link-active {
+	color: #2196f3;
+	text-decoration: none;
+}
+.footer-all {
+	height: 252px;
+	background-color: #2f303a;
+	color: white;
+	padding: 0px;
+}
+.logo-footer {
+	text-align: left;
+	padding: 60px 0px 10px 215px;
+}
+.address-all {
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	padding: 10px 1139px 0px 215px;
+}
+#contact-mail-footer a {
+	color: white;
+	font-size: 14px;
+	padding: 9px 1139px 0px 215px;
+}
+#contact-mail-footer a:hover {
+	color: #2196f3;
+	font-size: 14px;
+}
+#contact-phone-footer a {
+	color: white;
+	font-size: 14px;
+	padding: 9px 1139px 60px 215px;
+}
+#contact-phone-footer a:hover {
+	color: #2196f3;
+	font-size: 14px;
+}
