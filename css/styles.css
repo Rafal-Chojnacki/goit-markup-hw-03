@@ -149,7 +149,7 @@ body {
 .h1index {
 	padding: 106px 52px 0 452px;
 	margin: 0px;
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 44px;
 	font-weight: 900;
 	line-height: 60px;
@@ -244,11 +244,13 @@ body {
 .figure-portfolio {
 	height: 404px;
 	margin: 0px;
-	border: 1px solid #eeeeee;
 }
 .figcapition-portfolio {
 	height: 110px;
 	padding-left: 24px;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
 }
 .project-name {
 	font-weight: 700;
