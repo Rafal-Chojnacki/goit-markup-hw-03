@@ -13,6 +13,9 @@ body {
 	margin-left: 215px;
 	margin-right: 0px;
 }
+[class^='link'] {
+	text-decoration: none;
+}
 .container-header {
 	border-bottom: 1px solid #ececec;
 }
@@ -272,27 +275,21 @@ body {
 	color: white;
 }
 .link-header {
-	text-decoration: none;
 	color: black;
 }
 .link-footer {
-	text-decoration: none;
 	color: white;
 }
 .link-active {
-	text-decoration: none;
 	color: #2196f3;
 }
 [class^='link']:hover {
-	text-decoration: none;
 	color: #2196f3;
 }
 [class^='link']:focus {
-	text-decoration: none;
 	color: #2196f3;
 }
 [class^='link']:active {
-	text-decoration: none;
 	color: #2196f3;
 }
 .footer-all {
@@ -315,12 +312,10 @@ body {
 }
 #link-mail-footer {
 	padding-top: 9px;
-	text-decoration: none;
 	font-size: 14px;
 }
 #link-phone-footer {
 	padding-top: 9px;
-	text-decoration: none;
 	color: #2196f3;
 	font-size: 14px;
 }
